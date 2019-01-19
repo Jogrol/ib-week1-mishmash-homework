@@ -1,5 +1,4 @@
 class ShoppingCart {
-
     constructor(){
         this.items = []
     }
@@ -12,7 +11,6 @@ class ShoppingCart {
             quantity: quantity,
             pricePerUnit: price,
         })
-
     }
     clear(){
         this.items = [];
